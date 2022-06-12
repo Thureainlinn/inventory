@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container-fluid bg">
+        <div class="row mt-3 ">
+           
+            <div class="col-12 col-md-2 col-lg-2  ">
+                <div class="sidebar-container d-flex justify-content-between align-items-center bgr urine">
+                    <span class="fw-bolder text-white px-2">Foodager</span>
+                   <button class="btn bgr text-white" id="mm"><i class="fa-solid fa-bars-staggered"></i></button>
+                </div>
+                <div class="bt" id="mu">
+                <nav class="side-bar mt-5">
+                   <ul>
+                       <li><a href="#">Sample Kitchen</a></li>
+                       <li><a href="#">Home</a></li>
+                       <li>
+                              <a href="#" class="order-btn"><i class="fa-solid fa-cart-shopping "></i>Order & Invoice
+                           <span class="fa-solid fa-caret-down first"></span>
+                       </a>
+                        <ul class="order-show" >
+                            
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                  
+                    <li><a href="#" class="ele-btn"><i class="fa-solid fa-book"></i>Electronic Invoice
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="ele-show">
+                            <li><a href="#">Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#" class="inven-btn"><i class="fa-solid fa-sitemap"></i>Inventory
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="inven-show">
+                            <li><a href="#">Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#" class="reci-btn"><i class="fa-brands fa-500px"></i>Recipes
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="reci-show ">
+                            <li><a href="#">Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#" class="point-btn"><i class="fa-solid fa-dollar-sign"></i>Point of Sale
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="point-show">
+                            <li><a href="#">Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#" class="item-btn"><i class="fa-solid fa-address-card "></i>Item Vendors
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="item-show">
+                            <li><a href="#">Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#" class="tra-btn"><i class="fa-brands fa-expeditedssl"></i>Trackers
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="tra-show">
+                            <li><a href="#" >Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                            
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#" class="img-btn"><i class="fa-solid fa-image"></i>Image Vault
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                        <ul class="img-show">
+                            <li><a href="#">Catalog</a></li>
+                             <li><a href="#">Order Form</a></li>
+                             <li><a href="#">Orders</a></li>
+                             <li><a href="#">Recurring Orders</a></li>
+                             <li><a href="#">Vendor Invocie</a></li>
+                             
+                        </ul>
+                    
+                    </li>
+
+                   </ul>
+                </nav>
+            </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-10 ">
+                <div class="nav-container d-flex justify-content-between align-items-center bgr">
+                    <div class="left-container d-flex justify-content-between aling-items-center">
+                        <span class="mx-2 text-white">Inventory</span>
+                        <span class="mx-5 text-white">Community</span>
+                        <span class="text-white">Repeat</span>
+                    </div>
+                    <div class="right-container d-flex justify-content-between align-items-center">
+                       <button class="btn bgr text-white"> <i class="fa-solid fa-bell"></i>
+                       
+                      </button>
+                       <div class="dropdown mx-2">
+                        <button class="btn bgr text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                        <img src="asset/photo-1535713875002-d1d0cf377fde.jpg" class="fs-3" alt=""> Thu Reain Lin
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+
+                        <button class="btn bgr text-white"><i class="fa-solid fa-circle-plus"></i></i></button>
+                    </div>
+                </div>
+                <div class=" ">
+                <div class="row mt-3 ">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="vendor d-flex justify-content-between align-items-center px-2">
+                            <span class="text-black fw-bold">Vendor Invoice</span>
+                            <div class="text-end">
+                                <button class="btn">
+                                <i class="fa-solid fa-download mx-2"></i>
+                            </button>
+                            <button class="btn filter">
+                                <i class="fa-solid fa-filter mx-2 "></i>
+                            </button>
+                            <div class="d-lg-none bb">
+                                <div class="">
+                                    <form action ="" class="form-row">
+                                        <input type="text" class="from-control">
+                                        <input type="number" class="form-control">
+                                        <button class="btn btn-primary">submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 dd shadow-sm">
+                    <div class="col-12 col-md-12 col-lg-12  mt-3 ">
+                    <div class="upper-card d-flex justify-content-between  align-items-center mb-2">
+                        <p>US Foods</p>
+                        <button class=" btn btn-ouline-success text-success border rounded  px-2"><i class="fa-solid fa-pencil text-success mx-2"></i>Edit</button>
+                    </div>
+            
+                  
+                    
+                    <div class="d-flex justify-content-between aling-items-center ">
+                        <div class="first-card">
+                            <p>Receive Date:<span class="mx-3 ">03/23/2018</span></p>
+                            <p>Invoice Date:<span class="mx-3">$575.00</span></p>
+                        </div>
+                        <div class="second-card">
+                            <p>Receive Date:<span class="mx-3">03/23/2018</span></p>
+                            <p>Invoice Date:<span class="mx-3">$575.00</span></p>
+                        </div>
+                        <div class="third-card">
+                            <p>Receive Date:<span class="mx-3">03/23/2018</span></p>
+                            <p>Invoice Date:<span class="mx-3">$575.00</span></p>
+                        </div>
+                   
+                </div>
+           
+            <hr class="fs-5 mb-5">
+          
+               
+                    <div class="">
+                        <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>2011/04/25</td>
+                                    <td>$320,800</td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>$170,750</td>
+                                </tr>
+                                <tr>
+                                    <td>Ashton Cox</td>
+                                    <td>Junior Technical Author</td>
+                                    <td>San Francisco</td>
+                                    <td>66</td>
+                                    <td>2009/01/12</td>
+                                    <td>$86,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Cedric Kelly</td>
+                                    <td>Senior Javascript Developer</td>
+                                    <td>Edinburgh</td>
+                                    <td>22</td>
+                                    <td>2012/03/29</td>
+                                    <td>$433,060</td>
+                                </tr>
+                                <tr>
+                                    <td>Airi Satou</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>33</td>
+                                    <td>2008/11/28</td>
+                                    <td>$162,700</td>
+                                </tr>
+                                <tr>
+                                    <td>Brielle Williamson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>New York</td>
+                                    <td>61</td>
+                                    <td>2012/12/02</td>
+                                    <td>$372,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Herrod Chandler</td>
+                                    <td>Sales Assistant</td>
+                                    <td>San Francisco</td>
+                                    <td>59</td>
+                                    <td>2012/08/06</td>
+                                    <td>$137,500</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Serge Baldwin</td>
+                                    <td>Data Coordinator</td>
+                                    <td>Singapore</td>
+                                    <td>64</td>
+                                    <td>2012/04/09</td>
+                                    <td>$138,575</td>
+                                </tr>
+                                <tr>
+                                    <td>Zenaida Frank</td>
+                                    <td>Software Engineer</td>
+                                    <td>New York</td>
+                                    <td>63</td>
+                                    <td>2010/01/04</td>
+                                    <td>$125,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Zorita Serrano</td>
+                                    <td>Software Engineer</td>
+                                    <td>San Francisco</td>
+                                    <td>56</td>
+                                    <td>2012/06/01</td>
+                                    <td>$115,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Jennifer Acosta</td>
+                                    <td>Junior Javascript Developer</td>
+                                    <td>Edinburgh</td>
+                                    <td>43</td>
+                                    <td>2013/02/01</td>
+                                    <td>$75,650</td>
+                                </tr>
+                                <tr>
+                                    <td>Cara Stevens</td>
+                                    <td>Sales Assistant</td>
+                                    <td>New York</td>
+                                    <td>46</td>
+                                    <td>2011/12/06</td>
+                                    <td>$145,600</td>
+                                </tr>
+                                <tr>
+                                    <td>Hermione Butler</td>
+                                    <td>Regional Director</td>
+                                    <td>London</td>
+                                    <td>47</td>
+                                    <td>2011/03/21</td>
+                                    <td>$356,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Lael Greer</td>
+                                    <td>Systems Administrator</td>
+                                    <td>London</td>
+                                    <td>21</td>
+                                    <td>2009/02/27</td>
+                                    <td>$103,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Jonas Alexander</td>
+                                    <td>Developer</td>
+                                    <td>San Francisco</td>
+                                    <td>30</td>
+                                    <td>2010/07/14</td>
+                                    <td>$86,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Shad Decker</td>
+                                    <td>Regional Director</td>
+                                    <td>Edinburgh</td>
+                                    <td>51</td>
+                                    <td>2008/11/13</td>
+                                    <td>$183,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Michael Bruce</td>
+                                    <td>Javascript Developer</td>
+                                    <td>Singapore</td>
+                                    <td>29</td>
+                                    <td>2011/06/27</td>
+                                    <td>$183,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Donna Snider</td>
+                                    <td>Customer Support</td>
+                                    <td>New York</td>
+                                    <td>27</td>
+                                    <td>2011/01/25</td>
+                                    <td>$112,000</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            
+               
+            
+            
+            
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="jquery.dataTables.min.js"></script>
+    <script src="dataTables.bootstrap4.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('#example').DataTable();
+} );
+
+$(".order-btn").click(function(){
+    $("nav ul .order-show").toggleClass("show");
+});
+$(".com-btn").click(function(){
+    $("nav ul .com-show").toggleClass("show1");
+});
+$(".ele-btn").click(function(){
+    $("nav ul .ele-show").toggleClass("show2");
+});
+$(".inven-btn").click(function(){
+    $("nav ul .inven-show").toggleClass("show3");
+});
+$(".reci-btn").click(function(){
+    $("nav ul .reci-show").toggleClass("show4");
+});
+$(".point-btn").click(function(){
+    $("nav ul .point-show").toggleClass("show5");
+});
+$(".item-btn").click(function(){
+    $("nav ul .item-show").toggleClass("show6");
+});
+$(".tra-btn").click(function(){
+    $("nav ul .tra-show").toggleClass("show7");
+});
+$(".img-btn").click(function(){
+    $("nav ul .img-show").toggleClass("show8");
+});
+$(".filter").click(function(){
+    $(this).siblings(".bb").toggleClass("rr");
+})
+$("#mm").click(function(){
+    $(this).parent().siblings(".sidebar").toggleClass(".ll");
+})
+
+    </script>
+</body>
+</html>
